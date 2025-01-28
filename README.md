@@ -32,6 +32,18 @@ Before you begin, ensure you have met the following requirements:
    dotnet run
    ```
 
+
+
+## Database Configuration
+The application uses SQL Server. Update the connection string in `appsettings.Development.json`:
+
+```json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=CategoryCRUD;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
+}
+```
 ## Project Structure
 ```
 CategoryCRUD/
@@ -51,18 +63,6 @@ CategoryCRUD/
     ├── css/
     └── js/
 ```
-
-## Database Configuration
-The application uses SQL Server. Update the connection string in `appsettings.Development.json`:
-
-```json
-{
-  "ConnectionStrings": {
-    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=CategoryCRUD;Trusted_Connection=True;MultipleActiveResultSets=true"
-  }
-}
-```
-
 ## Usage
 1. Launch the application
 2. Navigate to the Categories page
