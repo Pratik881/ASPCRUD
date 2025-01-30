@@ -3,6 +3,7 @@
 ## Description
 This is an ASP.NET Core MVC web application that uses Entity Framework Core with SQL Server for data access. The application is styled with Bootstrap for a responsive design.
 
+[http://pratik.runasp.net/](http://pratik.runasp.net/)
 
 
 ## Prerequisites
